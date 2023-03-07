@@ -1,9 +1,9 @@
 $(document).ready(function () {
     /*默认语言*/
-    var defaultLang = "en";
+    var defaultLang = "cn";
     $("[i18n]").i18n({
         defaultLang: defaultLang,
-        filePath: "/responsive-portfolio-website/assets/i18n/",//路径配置
+        filePath: "/assets/i18n/",//路径配置
         filePrefix: "i18n_",
         fileSuffix: "",
         forever: true,
@@ -21,7 +21,7 @@ $(document).ready(function () {
 
         $("[i18n]").i18n({
             defaultLang: a,
-            filePath: "/responsive-portfolio-website/assets/i18n/",
+            filePath: "/assets/i18n/",
         });
 
     });
