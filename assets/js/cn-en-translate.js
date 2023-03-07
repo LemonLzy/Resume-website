@@ -3,7 +3,7 @@ $(document).ready(function () {
     var defaultLang = "cn";
     $("[i18n]").i18n({
         defaultLang: defaultLang,
-        filePath: "/assets/i18n/",//路径配置
+        filePath: "./assets/i18n/",//路径配置
         filePrefix: "i18n_",
         fileSuffix: "",
         forever: true,

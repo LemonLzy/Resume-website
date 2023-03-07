@@ -60,14 +60,14 @@
                 <p i18n="contact">Contactme</p>
               </a>
             </li>
-<!--            <li class="nav__item">-->
-<!--              <div class="nav__link" id="translate" value="en">-->
-<!--                <svg class="icon nav__icon-svg" aria-hidden="true">-->
-<!--                  <use xlink:href="#icon-fanyi"></use>-->
-<!--                </svg>-->
-<!--                <a class="=nav__link" id="nav__translate">Translate</a>-->
-<!--              </div>-->
-<!--            </li>-->
+            <li class="nav__item">
+              <div class="nav__link" id="translate" value="en">
+                <svg class="icon nav__icon-svg" aria-hidden="true">
+                  <use xlink:href="#icon-fanyi"></use>
+                </svg>
+                <a class="=nav__link" id="nav__translate">Translate</a>
+              </div>
+            </li>
           </ul>
           <i class="uil uil-times nav__close" id="nav-close"></i>
         </div>
@@ -98,35 +98,22 @@
             </div>
 
             <div class="home__img">
-              <svg
-                class="home__blob"
-                viewBox="0 0 200 187"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <mask id="mask0" mask-type="alpha">
-                  <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
-                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
-                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
-                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                  />
-                </mask>
-                <g mask="url(#mask0)">
-                  <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
-                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
-                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
-                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                  />
-                  <image
-                    class="home__blob-img"
-                    x="0"
-                    y="-30"
-                    xlink:href="assets/img/cat.png"
-                  />
-                </g>
-              </svg>
+              <h1 class="home__title" i18n="about__title">
+                关于我
+              </h1>
+              <p class="about__description" i18n="about__description">
+                Web developer, with extensive knowledge and years of experience,
+                working in web technologies and Ui / Ux design, delivering quality
+                work.
+              </p>
+              <div class="about__buttons">
+                <a
+                        download=""
+                        href="assets/pdf/简历.pdf"
+                        class="button button--flex"
+                ><span i18n="download">Download CV</span><i class="uil uil-download-alt button__icon"></i>
+                </a>
+              </div>
             </div>
 
             <div class="home__data">
@@ -273,60 +260,60 @@
       </section>
 
       <!--==================== ABOUT ====================-->
-      <section class="about section" id="about">
-        <h2 class="section__title" i18n="about__title">About Me</h2>
-        <span class="section__subtitle" i18n="about__subtitle"
-          >My introduction</span
-        >
-        <div class="about__container container grid">
-          <img src="assets/img/about.jpg" alt="" class="about__img" />
+<!--      <section class="about section" id="about">-->
+<!--        <h2 class="section__title" i18n="about__title">About Me</h2>-->
+<!--        <span class="section__subtitle" i18n="about__subtitle"-->
+<!--          >My introduction</span-->
+<!--        >-->
+<!--        <div class="about__container container grid">-->
+<!--          <img src="assets/img/about.jpg" alt="" class="about__img" />-->
 
-          <div class="about__data">
-            <p class="about__description" i18n="about__description">
-              Web developer, with extensive knowledge and years of experience,
-              working in web technologies and Ui / Ux design, delivering quality
-              work.
-            </p>
+<!--          <div class="about__data">-->
+<!--            <p class="about__description" i18n="about__description">-->
+<!--              Web developer, with extensive knowledge and years of experience,-->
+<!--              working in web technologies and Ui / Ux design, delivering quality-->
+<!--              work.-->
+<!--            </p>-->
 
-            <div class="about__info">
-              <div>
-                <span class="about__info-title">5+</span>
-                <span class="about__info-name" i18n="about__info-name1"
-                  >Years of <br />
-                  experience</span
-                >
-              </div>
+<!--            <div class="about__info">-->
+<!--              <div>-->
+<!--                <span class="about__info-title">5+</span>-->
+<!--                <span class="about__info-name" i18n="about__info-name1"-->
+<!--                  >Years of <br />-->
+<!--                  experience</span-->
+<!--                >-->
+<!--              </div>-->
 
-              <div>
-                <span class="about__info-title">2+</span>
-                <span class="about__info-name" i18n="about__info-name2"
-                  >Completed <br />
-                  projects</span
-                >
-              </div>
+<!--              <div>-->
+<!--                <span class="about__info-title">2+</span>-->
+<!--                <span class="about__info-name" i18n="about__info-name2"-->
+<!--                  >Completed <br />-->
+<!--                  projects</span-->
+<!--                >-->
+<!--              </div>-->
 
-              <div>
-                <span class="about__info-title">2+</span>
-                <span class="about__info-name" i18n="about__info-name3"
-                  >Companies <br />
-                  worked</span
-                >
-              </div>
-            </div>
+<!--              <div>-->
+<!--                <span class="about__info-title">2+</span>-->
+<!--                <span class="about__info-name" i18n="about__info-name3"-->
+<!--                  >Companies <br />-->
+<!--                  worked</span-->
+<!--                >-->
+<!--              </div>-->
+<!--            </div>-->
 
-            <div class="about__buttons">
-              <a
-                download=""
-                href="assets/pdf/简历.pdf"
-                class="button button--flex"
-              >
-                <span i18n="download">Download CV</span
-                ><i class="uil uil-download-alt button__icon"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+<!--            <div class="about__buttons">-->
+<!--              <a-->
+<!--                download=""-->
+<!--                href="assets/pdf/简历.pdf"-->
+<!--                class="button button&#45;&#45;flex"-->
+<!--              >-->
+<!--                <span i18n="download">Download CV</span-->
+<!--                ><i class="uil uil-download-alt button__icon"></i>-->
+<!--              </a>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </section>-->
 
       <!--==================== SKILLS ====================-->
       <section class="skills section" id="skills">
